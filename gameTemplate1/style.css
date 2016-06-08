@@ -1,6 +1,5 @@
 body {
-width:1000px;
-height:1000px;
+top:10px;
 background-image: url("img/Battle field.gif");
 background-repeat:no-repeat;
 position:absolute;
@@ -9,10 +8,83 @@ width:50px;
 height:50px;
 background-image: url("img/Person.gif");
 position:absolute;
+}
+#AK{
+background-image:url("img/AK.gif");
+position:absolute;
+width:25px;
+height:25px;
+}
+#AKStill{
+background-image:url("img/AKStill.gif");
+position:absolute;
+width:32px;
+height:32px;
+}
+.weapons{
+top:230px;
+position:absolute;
+width:50px;
+height:50px;
+}
+#badone{
+background-image:url("img/Fire.gif");
+position:absolute;
+width:32px;
+height:32px;
+top:230px;
+left:230px;
+}
+.bad{
+width:50px;
+height:50px;
+position:absolute;
+top:220px;
+left:220px;
+}
+#EndScreen{
+background-image:url("img/The End.jpg");
+position:absolute;
+width:500px;
+height:500px;
+margin:10px;
+}
+#BottomBullet{
+background-image:url("img/Bullet Bottom.gif");
+width:32px;
+height:32px;
+position:absolute;
+margin-top:10px;
 top:230px;
 }
-
-
-
-
-
+#RightBullet{
+background-image:url("img/Bullet Right.gif");
+width:32px;
+height:32px;
+position:absolute;
+margin-left:10px;
+top:230px;
+}
+#LeftBullet{
+background-image:url("img/Bullet Left.gif");
+width:32px;
+height:32px;
+position:absolute;
+margin-right:10px;
+top:230px;
+}
+#TopBullet{
+background-image:url("img/Bullet Top.gif");
+width:32px;
+height:32px;
+position:absolute;
+margin-bottom:10px;
+top:230px;
+}
+#OnePoint{
+background-image:url("img/onepoint-logo.jpg");
+width:720px;
+height:450px;
+position:absolute;
+}
+}
